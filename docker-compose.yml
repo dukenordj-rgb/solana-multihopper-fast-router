@@ -1,0 +1,5 @@
+services:
+  multihopper-router:
+    build: .
+    restart: always
+    command: python router.py
